@@ -18,7 +18,7 @@ public class Assignment2 {
                 System.out.print("*");
             }
 
-            for (int j = 0; j > i + 1; j++){
+            for (int j = 0; j < i + 1; j++){
                 System.out.print("*");
             }
         }
