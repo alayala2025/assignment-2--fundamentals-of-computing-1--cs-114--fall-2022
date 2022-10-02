@@ -11,8 +11,17 @@ public class Assignment2 {
         // Top part of the diamond
         for (int i = 0; i < (rows/2); i++){
             for (int j = 0; j < (rows - 1) - i; j++){
-                printline(rows,i);
+                System.out.print("");
             }
+
+            for (int j = 0; j < i; j++){
+                System.out.print("*");
+            }
+
+            for (int j = 0; j < i + 1; j++){
+                System.out.print("*");
+            }
+            System.out.print();
         }
         }
 }
