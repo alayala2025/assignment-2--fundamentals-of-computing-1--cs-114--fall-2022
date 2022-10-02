@@ -7,5 +7,12 @@ public class Assignment2 {
         Scanner sc = new Scanner(System.in);
         System.out.print("How many rows? ");
         int rows = sc.nextInt();
+
+        // Top part of the diamond
+        for (int i = 0; i < (rows/2); i++){
+            for (int j = 0; j < (rows - 1) - i; j++){
+                System.out.print("");
+            }
+        }
         }
 }
