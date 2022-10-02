@@ -23,5 +23,20 @@ public class Assignment2 {
             }
             System.out.println();
         }
+        //Bottom part of the diamond
+        for(){
+            for(){
+                System.out.print(" ");
+            }
+
+            for (int j = 0; j < i; j++){
+                System.out.print("*");
+            }
+
+            for (int j = 0; j < i + 1; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+            }
         }
 }
