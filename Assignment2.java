@@ -24,7 +24,7 @@ public class Assignment2 {
             System.out.println();
         }
         //Bottom part of the diamond
-        for(int j = 0; j > (rows/2); j++){
+        for(int i = rows % 2 == 0? rows/2 - 1: rows/2; i > = 0;i--){
             for(int j = 0; j < (rows - 1) - i; j++ ){
                 System.out.print(" ");
             }
